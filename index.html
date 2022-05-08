@@ -13,39 +13,51 @@
    
     <!-- Сustom styles -->
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   </head>
     <!-- Шапка -->
     <body>
-      <header>
-        <nav>
+      
+      <header class="header">
+         <div class="container header-container">
           <a class="logo link" lang="en" href="/">Web<span class="logo-header">Studio</span></a>
-                    
-            <ul class="header-contacts list">
-              <li><a href="./index.html" class="header-active-page link">Студия</a></li>
-              <li><a href="./portfolio.html" class="header-pages-link">Портфолио</a></li>
-              <li><a href="#" class="header-pages-link">Контакты</a></li>
-            </ul>
-        </nav>
-
-            <ul class="header-contacts list">
-              <li><a href="mailto:info@devstudio.com" class="header-link">info@devstudio.com</a></li>
-              <li><a href="tel:+380961111111"  class="header-link">+38 096 111 11 11</a></li>
-            </ul>           
+            <nav class="navigation">                   
+              <ul class="navigation-list list">
+                <li class="navigation-item">
+                  <a href="./index.html" class="active-navigation-link link">Студия</a></li>
+                <li class="navigation-item">
+                  <a href="./portfolio.html" class="navigation-link link">Портфолио</a></li>
+                <li class="navigation-item">
+                  <a href="#" class="navigation-link link">Контакты</a></li>
+              </ul>
+            </nav>
+          
+              <ul class="header-contacts list">
+                <li><a href="mailto:info@devstudio.com" class="header-mail">info@devstudio.com</a></li>
+                <li><a href="tel:+380961111111"  class="header-phone">+38 096 111 11 11</a></li>
+              </ul>         
+         </div>
       </header>
+        
+      
 
         <main>
           <section class="hero-section">
+           <div class="container">
             <h1 class="hero-slogan">Эффективные решения для вашего бизнеса</h1>
-            <button type="button" class="order-btn">Заказать услугу</button>
+            
+           </div>
+           <button type="button" class="order-btn">Заказать услугу</button>
           </section>
             
 
     <!-- Особенности -->
 
-          <section class="features-section">
-            <h2 hidden>Особенности</h2>
-              <ul class="list">
+          <section class="features-section section">
+            <div class="container">
+              <h2 hidden>Особенности</h2>
+              <ul class="features-list list">
                 <li>
                   <h3 class="features-subtitle" >Внимание к деталям</h3>
                   <p class="features-page-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
@@ -66,13 +78,15 @@
                   <p class="features-page-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                 </li>
               </ul>
+            </div>
           </section> 
                     
     <!-- Чем мы занимаемся -->
 
-          <section class="what-we-do-section">
-            <h2 class="section-title">Чем мы занимаемся</h2>
-              <ul class="list">
+          <section class="what-we-do-section section">
+            <div class="container">
+              <h2 class="section-title">Чем мы занимаемся</h2>
+              <ul class="what-we-do-list list">
                 <li>
                   <img src="./images/first.jpg" alt="Разработка программного обеспечения" width="370" height="294">
                 </li>
@@ -86,12 +100,14 @@
                 </li>
 
               </ul>
+            </div>
           </section>
 
     <!-- Наша команда -->
 
-          <section class="our-team-section">
-            <h2 class="section-title">Наша команда</h2>
+          <section class="our-team-section section">
+            <div class="container">
+              <h2 class="section-title">Наша команда</h2>
               <ul class="our-team-list list">
                 <li class="teammate">
                   <img src="./images/fourth.jpg" alt="Дизайнер" width="270" height="260">
@@ -118,20 +134,25 @@
                   <p class="our-team-position" lang="en">UI Designer</p>
                 </li>
               </ul>
+            </div>
           </section>
         </main>
 
     <!-- Подвал -->
 
       <footer class="footer">
+        <div class="container">
+          
         <a class="logo link" lang="en" href="/">Web<span class="logo-footer">Studio</span></a>
-          <address class="footer-adress">
-            <ul class="footer-list list">
-              <li class="adress">г. Киев, пр-т Леси Украинки, 26</li>
-              <li><a href="mailto:info@example.com"  class="footer-link link">info@example.com</a></li>
-              <li><a href="tel:+380961111111"  class="footer-link link">+38 096 111 11 11</a></li>
-            </ul>
-          </address>            
+        <address class="footer-adress">
+          <ul class="footer-list">
+            <li class="adress">г. Киев, пр-т Леси Украинки, 26</li>
+            <li><a href="mailto:info@example.com"  class="footer-link link">info@example.com</a></li>
+            <li><a href="tel:+380961111111"  class="footer-link link">+38 096 111 11 11</a></li>
+          </ul>
+        </address>
+       
+        </div>             
       </footer>          
     </body>
 </html>
