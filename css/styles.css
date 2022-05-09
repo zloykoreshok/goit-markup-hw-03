@@ -206,8 +206,6 @@ padding-bottom: 280px;
   letter-spacing: 0.06em;
   cursor: pointer;
 
-/* padding-top: 350px;
-padding-bottom: 200px; */
    width: 200px;
    height: 50px;
 
@@ -403,14 +401,30 @@ margin: 0;
 
 .filter-btn-list{
     text-decoration: none;
+align-items: center;
+padding-top: 94px;
+padding-bottom: 34px;
+outline: 2px solid tomato;
+width: 611px;
+margin-left: auto;
+margin-right: auto;
+    display: flex;
     color: var(--title-text-color);
 }
+
+.filter-btn-container{
+
+outline: 2px solid tomato;
+
+}
+
 
 .filter-btn{
   font-family: 'Roboto', 'Sans-Serif';
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
+  border: 0;
   
   letter-spacing: 0.03em;
   text-align: center;
@@ -429,7 +443,7 @@ margin: 0;
   letter-spacing: 0.03em;
   text-align: center;
   cursor: pointer;
-
+  border: 0;
   color: var(--background-color);
   background-color: var(--accent-color);
 }
