@@ -8,14 +8,14 @@
   --team-n-buttons-color: #F5F4FA;
   --footer-links-color: rgba(255, 255, 255, 0.6);
   --border-color: #ECECEC;
+  --footer-links-color:rgba(255, 255, 255, 0.6);
 }
 
 body{
   font-family: 'Roboto', 'Sans-Serif';
   font-size: 14px;
   letter-spacing: 0.02em;
-  
-  
+    
   color: var(--primary-text-color);
   background-color: var(--background-color);
   
@@ -72,11 +72,12 @@ h1,h2,h3,h4,h5,h6,p{
   font-size: 26px;
   line-height: 1.2;
   color: var(--accent-color);
+  width: 145px;
+  
 
   padding-top: 24px;
   padding-bottom: 24px;
 
-  margin-right: 91px;
   display: block;
   outline: 2px solid tomato;
 }
@@ -122,7 +123,8 @@ h1,h2,h3,h4,h5,h6,p{
 
   padding-top: 32px;
   padding-bottom: 32px;
-  
+  margin-left: 91px;
+
   display: block;
 
   outline: 2px solid tomato;
@@ -216,7 +218,7 @@ h1,h2,h3,h4,h5,h6,p{
   border: none;
   border-radius: 4px;
   
-  text-align: center;
+  text-align: center; 
   align-items: center;
   
   color: var(--background-color);
@@ -328,10 +330,14 @@ img{
 .teammate{
   background-color: var(--background-color);
   margin-right: 30px;
+
+  outline: 2px solid tomato;
 }
 
 .teammate:last-child{
   margin: 0;
+  
+
 }
 
 .our-team-name{
@@ -340,8 +346,10 @@ img{
   letter-spacing: 0.03em;
   text-align: center;
 
-  padding-top: 30px;
-  padding-bottom: 10px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  
+  outline: 2px solid tomato;
 
   color: var(--title-text-color);
 }
@@ -351,16 +359,21 @@ img{
   line-height: 1.2;
   letter-spacing: 0.03em;
 
-  padding-bottom: 30px;
+  /* padding-bottom: 30px; */
   text-align: center;
+
+  margin-bottom: 30px;
+  outline: 2px solid tomato;
+
 }
 
 .footer{
- 
-  padding-top: 60px;
-  padding-bottom: 60px;
+ padding-top:36px;
+ padding-bottom: 60px;
 
   outline: 2px solid tomato;
+
+
 
   background-color: var(--hero-footer-background-color);
 }
@@ -369,32 +382,42 @@ img{
   color: var(--background-color);
 }
 
+
+
+
 .footer-list{
-  font-style: normal; 
-  list-style: none;
-
-  padding: 0;
-}
-
-.adress{
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
   outline: 2px solid tomato;
   display: block;
-  width: 231px;
   color: var(--background-color);
+  font-style: normal; 
+  list-style: none;
+  width: 231px;
+  padding-left: 0;
+  
+  
+}
+
+.adress{
+  font-style: normal;
+  outline: 2px solid tomato;
+
+}
+
+.adress-list{
+  margin-top: 0;
+  margin-bottom: 0;
+  outline: 2px solid tomato;
+  width: 231px;
 }
 
 .footer-link{
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-  outline: 2px solid tomato;
-  
-  margin: 0;
-
-  color: var(--footer-links-color);
+  color:var(--footer-links-color); 
 }
 
 .navigation-link:hover,
