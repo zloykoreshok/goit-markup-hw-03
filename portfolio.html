@@ -13,13 +13,13 @@
    
     <!-- Сustom styles -->
     <link rel="stylesheet" href="./css/styles.css">
-    <link rel="stylesheet" href="<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer"/> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer"/> 
     
   </head>
     
  <!-- Шапка -->
     <body>
-      <header class="header">
+      <header class="header main-container ">
         <div class="container header-container">
           <a class="logo link" lang="en" href="/">Web<span class="logo-header">Studio</span></a>
             <nav class="navigation">                     
@@ -43,8 +43,8 @@
 <!-- Портфолио -->
 
         <main>
-          <section>
-            <div class="container">
+          <section class="portfolio-section main-container">
+            <div class="portfolio-container">
               <h1 hidden>Наши работы</h1>
               <ul class="filter-btn-list list">
                 <li class="filter-btn-container"><button type="button" class="sum-filter-btn">Все</button></li>
@@ -57,56 +57,74 @@
               <ul class="our-work list"> 
                 <li class="our-work-item">                 
                   <img src="./images/eighth.jpg" alt="Технокряк" width="370" height="294">
-                  <h2 class="our-work-customer customer-card">Технокряк</h2>
-                  <p class="our-work-description work-card">Веб-сайт</p>
+                  <div class="our-work-card">
+                  <h2 class="our-work-customer">Технокряк</h2>
+                  <p class="our-work-description">Веб-сайт</p>
+                  </div>
                 </li>
 
                 <li class="our-work-item">
                   <img src="./images/ninth.jpg" alt="Постер New Orlean vs Golden Star" width="370" height="294">
-                  <h2 class="our-work-customer customer-card">Постер <span lang="en">New Orlean vs Golden Star</span></h2>
-                  <p class="our-work-description work-card">Дизайн</p>
+                  <div class="our-work-card">
+                  <h2 class="our-work-customer">Постер <span lang="en">New Orlean vs Golden Star</span></h2>
+                  <p class="our-work-description">Дизайн</p>
+                </div>
                 </li>
 
                 <li class="our-work-item">
                   <img src="./images/tenth.jpg" alt="Ресторан Seafood" width="370" height="294">
-                  <h2 class="our-work-customer customer-card">Ресторан <span lang="en">Seafood</span></h2>
-                  <p class="our-work-description work-card">Приложение</p>
+                  <div class="our-work-card">
+                  <h2 class="our-work-customer">Ресторан <span lang="en">Seafood</span></h2>
+                  <p class="our-work-description">Приложение</p>
+                </div>
                 </li>
 
                 <li class="our-work-item">
                   <img src="./images/eleventh.jpg" alt="Проект Prime" width="370" height="294">
-                  <h2 class="our-work-customer customer-card">Проект <span lang="en">Prime</span></h2>
-                  <p class="our-work-description work-card">Маркетинг</p>
+                  <div class="our-work-card">
+                  <h2 class="our-work-customer">Проект <span lang="en">Prime</span></h2>
+                  <p class="our-work-description">Маркетинг</p>
+                </div>
                 </li>
 
                 <li class="our-work-item">
                   <img src="./images/twelfth.jpg" alt="Проект Boxes" width="370" height="294">
-                  <h2 class="our-work-customer customer-card">Проект <span lang="en">Boxes</span></h2>
-                  <p class="our-work-description work-card">Приложение</p>
+                  <div class="our-work-card">
+                  <h2 class="our-work-customer">Проект <span lang="en">Boxes</span></h2>
+                  <p class="our-work-description">Приложение</p>
+                </div>
                 </li>
 
                 <li class="our-work-item">
                   <img src="./images/thirteenth.jpg" alt="Inspiration has no Borders" width="370" height="294">
-                  <h2 class="our-work-customer customer-card" lang="en">Inspiration has no Borders</h2>
-                  <p class="our-work-description work-card">Веб-сайт</p>
+                  <div class="our-work-card">
+                  <h2 class="our-work-customer" lang="en">Inspiration has no Borders</h2>
+                  <p class="our-work-description">Веб-сайт</p>
+                </div>
                 </li>
 
                 <li class="our-work-item">
                   <img src="./images/fourteenth.jpg" alt="Издание Limited Edition" width="370" height="294">
-                  <h2 class="our-work-customer customer-card">Издание <span lang="en">Limited Edition</span></h2>
-                  <p class="our-work-description work-card">Дизайн</p>
+                  <div class="our-work-card">
+                  <h2 class="our-work-customer">Издание <span lang="en">Limited Edition</span></h2>
+                  <p class="our-work-description">Дизайн</p>
+                </div>
                 </li>
 
                 <li class="our-work-item">
                   <img src="./images/fifteenth.jpg" alt="Проект LAB" width="370" height="294">
-                  <h2 class="our-work-customer customer-card">Проект <span lang="en">LAB</span></h2>
-                  <p class="our-work-description work-card">Маркетинг</p>
+                  <div class="our-work-card">
+                  <h2 class="our-work-customer">Проект <span lang="en">LAB</span></h2>
+                  <p class="our-work-description">Маркетинг</p>
+                </div>
                 </li>
 
                 <li class="our-work-item">
                   <img src="./images/sixteenth.jpg" alt="Growing Business" width="370" height="294">
-                  <h2 class="our-work-customer customer-card" lang="en">Growing Business</h2>
-                  <p class="our-work-description work-card">Приложение</p>
+                  <div class="our-work-card">
+                  <h2 class="our-work-customer" lang="en">Growing Business</h2>
+                  <p class="our-work-description">Приложение</p>
+                </div>
                 </li>
               </ul>  
             </div>      
@@ -115,7 +133,7 @@
         </main>
 
 <!-- Подвал -->
-      <footer class="footer">
+      <footer class="footer main-container">
         <div class="container">
           <a class="logo link" lang="en" href="/">Web<span class="logo-footer">Studio</span></a>
             <ul  class="footer-list">
