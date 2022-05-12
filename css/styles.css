@@ -18,7 +18,6 @@ body{
     
   color: var(--primary-text-color);
   background-color: var(--background-color);
-  
 }
 
 h1,h2,h3,h4,h5,h6,p{
@@ -46,19 +45,16 @@ h1,h2,h3,h4,h5,h6,p{
 
   padding-left: 15px;
   padding-right: 15px;
-
-  margin-left: auto;
-  margin-right: auto;
-
   /* outline: 2px solid tomato; */
+  margin-left: auto;
+  margin-right: auto; 
 }
 
 .portfolio-container{
   width: 1200px;
-  
+  /* outline: 2px solid tomato; */  
   margin-left: auto;
-  margin-right: auto;
-  /* outline: 2px solid tomato; */
+  margin-right: auto; 
 }
 
 
@@ -68,7 +64,7 @@ h1,h2,h3,h4,h5,h6,p{
   /* outline: 2px solid tomato; */
 }
 
-/* Header section */
+  /* Header section */
 .header{
   border-bottom: var(--border-color) solid
 }
@@ -118,7 +114,6 @@ h1,h2,h3,h4,h5,h6,p{
 
 .navigation-link{
   text-decoration: none;
-  
   padding-top: 32px;
   padding-bottom: 32px;
   display: block;
@@ -128,7 +123,6 @@ h1,h2,h3,h4,h5,h6,p{
 
 .active-navigation-link{
   color: var(--accent-color);
-
   padding-top: 32px;
   padding-bottom: 32px;
   /* outline: 2px solid tomato; */
@@ -140,16 +134,14 @@ h1,h2,h3,h4,h5,h6,p{
   font-size: 14px;
   line-height: 1.15;
   letter-spacing: 0.02em;
- 
   margin-left: auto;
   align-items: center;
   display: flex;
-   /* outline: 2px solid tomato; */
+  /* outline: 2px solid tomato; */
 }
 
 .header-mail{
   text-decoration: none;
-
   padding-top: 32px;
   padding-bottom: 32px;
   display: block;
@@ -159,7 +151,6 @@ h1,h2,h3,h4,h5,h6,p{
 
 .header-contacts-list{
   text-decoration: none;
-
   margin-right: 50px;
   /* outline: 2px solid tomato;  */
   color: var(--primary-text-color);
@@ -168,7 +159,8 @@ h1,h2,h3,h4,h5,h6,p{
 .header-contacts-list:last-child{
   margin-right: 0;
 }
-/* Hero section */
+
+ /* Hero section */
 
 .hero-section{
   font-family: 'Roboto';
@@ -222,11 +214,6 @@ h1,h2,h3,h4,h5,h6,p{
   display: inline-block;
   color: var(--background-color);
   background-color: var(--accent-color);
-
-}
-
-.order-btn:hover,
-.order-btn:focus{
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
@@ -350,7 +337,6 @@ img{
   line-height: 1.2;
   letter-spacing: 0.03em;
 
-  /* padding-bottom: 30px; */
   text-align: center;
   /* outline: 2px solid tomato; */
   margin-bottom: 30px;
@@ -366,9 +352,6 @@ img{
 .logo-footer{
   color: var(--background-color);
 }
-
-
-
 
 .footer-list{
   font-size: 14px;
@@ -415,13 +398,11 @@ img{
 
 /* portfolio.html page */
 
-
 .portfolio-section{
   padding-top: 94px;
   padding-bottom: 94px;
   /* outline: 2px solid tomato; */
 }
-
 
 .filter-btn-list{
   text-decoration: none;
@@ -495,7 +476,6 @@ img{
   flex-wrap: wrap;
    
   align-items: center;
- 
 }
 
 .our-work-item{
@@ -509,9 +489,6 @@ img{
 }
 
 .our-work-card{
-  /* margin-right: auto; */
-  
-  /* margin-bottom: 20px; */
   /* outline: 2px solid tomato; */
   border-left: var(--border-color) solid;
   border-right: var(--border-color ) solid;
