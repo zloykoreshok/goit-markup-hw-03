@@ -45,9 +45,11 @@ h1,h2,h3,h4,h5,h6,p{
 
   padding-left: 15px;
   padding-right: 15px;
-  /* outline: 2px solid tomato; */
+  
   margin-left: auto;
   margin-right: auto; 
+
+  /* outline: 2px solid tomato; */
 }
 
 .portfolio-container{
@@ -166,8 +168,8 @@ h1,h2,h3,h4,h5,h6,p{
   text-align: center;
 
   padding-top: 200px;
-  padding-bottom: 280px;
-  /* outline: 2px solid tomato; */ 
+  padding-bottom: 200px;
+  /* outline: 2px solid tomato;  */
   background-color: var(--hero-footer-background-color);
 }
 
@@ -182,7 +184,8 @@ h1,h2,h3,h4,h5,h6,p{
 
   margin-left: auto;
   margin-right:  auto;
-  margin-bottom: 30px;
+  
+  padding-bottom: 30px;
   width: 696px;
   
   color: var(--background-color) ;
@@ -202,7 +205,7 @@ h1,h2,h3,h4,h5,h6,p{
 
   border: none;
   border-radius: 4px;
-  
+ 
   text-align: center; 
   align-items: center;
   display: inline-block;
@@ -297,11 +300,13 @@ img{
   background-color: var(--team-n-buttons-color);
 }
 
+
 .our-team-list{
   text-align: center;
   display: flex;
   padding-left: 0;
 }
+
 
 .teammate{
   background-color: var(--background-color);
@@ -313,13 +318,17 @@ img{
   margin: 0;
 }
 
+.team-division{
+  /* outline: 2px solid tomato; */
+margin-bottom: 30px;
+}
+
 .our-team-name{
   font-size: 16px;
   line-height: 1.2;
   letter-spacing: 0.03em;
   text-align: center;
-
-  margin-top: 30px;
+  
   margin-bottom: 10px;
   /* outline: 2px solid tomato; */
 
@@ -333,14 +342,27 @@ img{
 
   text-align: center;
   /* outline: 2px solid tomato; */
-  margin-bottom: 30px;
+  padding-bottom: 30px;
 }
 
 .footer{
- padding-top:36px;
- padding-bottom: 60px;
+  padding-top:60px;
+  padding-bottom: 60px;
  /* outline: 2px solid tomato; */
  background-color: var(--hero-footer-background-color);
+}
+
+.footer-logo{
+  font-family: 'Raleway', 'Sans-Serif';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+
+  margin-bottom: 20px;
+  width: 145px;
+  display: block;
+  /* outline: 2px solid tomato; */
+  color: var(--accent-color);
 }
 
 .logo-footer{
@@ -351,25 +373,25 @@ img{
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
+  margin: 0;
   /* outline: 2px solid tomato; */
-  display: block;
   color: var(--background-color);
   font-style: normal; 
   list-style: none;
-  width: 231px;
   padding-left: 0;  
 }
 
 .adress{
   font-style: normal;
+  
   /* outline: 2px solid tomato; */
 }
 
 .adress-list{
-  margin-top: 0;
-  margin-bottom: 0;
+  /* margin-top: 0;
+  margin-bottom: 0; */
+  margin-top: 9px;
   /* outline: 2px solid tomato; */
-  width: 231px;
 }
 
 .footer-link{
@@ -392,21 +414,26 @@ img{
 
 /* portfolio.html page */
 
+.portfolio-container{
+  
+}
+
 .portfolio-section{
   padding-top: 94px;
   padding-bottom: 94px;
+        
   /* outline: 2px solid tomato; */
 }
 
 .filter-btn-list{
   text-decoration: none;
-  align-items: center;
-    
-  width: 613px;
+  justify-content: center;
+  display: flex;    
+  
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 35px;
-  display: flex;
+  margin-bottom: 50px;
+  
   color: var(--title-text-color);
   /* outline: 2px solid tomato; */
 }
@@ -426,7 +453,7 @@ img{
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
-  border: none;
+  border: 0;
   border-radius: 4px;
   letter-spacing: 0.03em;
   text-align: center;
@@ -464,39 +491,38 @@ img{
 } 
 
 .our-work{
+  margin: -15px;
   display: flex;
   margin-left: auto;
   margin-right: auto;
   flex-wrap: wrap;
-   
+  
   align-items: center;
 }
 
 .our-work-item{
-  width: 370px;
+  
 
   margin-top: 30px;
   margin: 15px;
   /* outline: 2px solid tomato; */
-  align-items: center;
-  display: block;
+  align-items: center; 
 }
 
 .our-work-card{
   /* outline: 2px solid tomato; */
-  border-left: var(--border-color) solid;
-  border-right: var(--border-color ) solid;
-  border-bottom: var(--border-color) solid;
+  padding: 20px 24px;
+  border-left: var(--border-color) solid 1px;
+  border-right: var(--border-color ) solid 1px;
+  border-bottom: var(--border-color) solid 1px;
 }
 
 .our-work-customer{
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
-  letter-spacing: 0.06em;
-  padding-top: 20px;
- 
-  margin-left: 24px;
+  letter-spacing: 0.04em;
+  margin-bottom: 4px; 
   color: var(--title-text-color);
 }
 
@@ -504,7 +530,4 @@ img{
   font-size: 16px;
   line-height: 1.85;
   letter-spacing: 0.03em;
-  margin-bottom: 20px;
-  margin-top: 4px;
-  margin-left: 24px;    
 }
