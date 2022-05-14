@@ -62,7 +62,7 @@ h1,h2,h3,h4,h5,h6,p{
 
   /* Header section */
 .header{
-  border-bottom: var(--border-color) solid
+  border-bottom: var(--border-color) solid 1px;
 }
 
 .header-container{
